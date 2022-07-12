@@ -1,0 +1,107 @@
+body {
+    background-image: url(bg.jpg);
+    background-size: 1980px;
+}
+.namasiswa{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+.container{
+    margin: auto;
+    width: 624px;
+    box-shadow: 0 15px 15px #5c5b5b;
+    position: relative;
+    margin-top: 150px;
+}
+/* .form-container {
+    border: 1px #999999 solid;
+    box-shadow: 0 0 15px #ffffff;
+    position: relative;
+} */
+
+/* .form {
+    padding: 10px;
+} */
+
+.title {
+    padding: 5px 20px;
+    text-align: start;
+    font-size: 25px;
+    background-color: rgb(250, 71, 101);
+    color:white;
+}
+
+.form-grup {
+    display: flex;  
+    flex-flow: row wrap;
+}
+
+.form-grup-left {
+    padding: 10px;
+}
+
+.form-grup-right {
+    padding: 10px;
+}
+
+.form-input {
+    padding: 5px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.input {
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+    height: 25px;
+    width: 255px;
+    padding: 3px 10px;
+}
+
+.button-control {
+    padding: 10px 5px;
+    text-align: right;
+}
+
+button {
+    background-color: none;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+button svg {
+    transform: translate(-2px, 3px);
+}
+
+button[type=submit] {
+    cursor: pointer;
+    color: #21c921;
+    border: 1px solid #18c018;
+}
+
+button[type=submit]:hover{
+    background-color: #058805;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 15px #18c018;
+}
+
+button[type=reset] {
+    cursor: pointer;
+    color: #b60f0f;
+    border: 1px solid #b60f0f;
+}
+
+button[type=reset]:hover{
+    background-color: #b60f0f;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 15px #ff0000;
+}

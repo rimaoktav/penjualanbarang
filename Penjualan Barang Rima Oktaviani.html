@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jualan barang</title>
+    <link rel="stylesheet" href="Penjualan.css">
+</head>
+<body>
+    <div class="namasiswa">
+        <h3><center>RIMA OKTAVIANI</center></h3>
+        <h3><center>32 - XII SIJA</center></h3>
+    </div>
+    <div class="container">
+        <div class="title">PENJUALAN BARANG</div>
+            <form class="form" action="#">
+                <div class="form-grup">
+                    <div class="form-grup-left">
+                        <div class="form-input">
+                            <label for="kodebarang" class="label">Kode Barang</label>
+                            <input type="text" class="input" id="kodebarang">
+                        </div>
+                        <div class="form-input">
+                            <label for="harga" class="label">Harga</label>
+                            <input type="number" class="input" id="harga" placeholder="0">
+                        </div>
+                        <div class="form-input">
+                            <label for="subtotal" class="label">Subtotal</label>
+                            <input type="text" class="input" id="subtotal" placeholder="Rp 0,-" disabled>
+                        </div>
+                        <div class="form-input">
+                            <label for="nilaidiskon" class="label">Nilai Diskon</label>
+                            <input type="text" class="input" id="nilaidiskon" placeholder="Rp 0,-" disabled>
+                        </div>
+                    
+                    </div>
+                    <div class="form-grup-right">
+
+                        <div class="form-input">
+                            <label for="namabarang" class="label">Nama Barang</label>
+                            <input type="text" class="input" id="namabarang">
+                        </div>
+                        <div class="form-input">
+                            <label for="jumlahbarang" class="label">Jumlah Barang</label>
+                            <input type="number" class="input" id="jumlahbarang" placeholder="0">
+                        </div>
+                        <div class="form-input">
+                            <label for="diskon" class="label">Diskon</label>
+                            <input type="text" class="input" id="diskon" placeholder="Rp 0,-" disabled>
+                        </div>
+                        <div class="form-input">
+                            <label for="totalbayar" class="label">Total Bayar</label>
+                            <input type="text" class="input" id="totalbayar" placeholder="Rp 0,-" disabled>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="button-control">
+                    <button type="submit" id="bayar" class="bayar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card-2-back-fill" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5H0V4zm11.5 1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2zM0 11v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1H0z"/>
+                        </svg>
+                        Bayar
+                    </button>
+                    <button type="reset" id="cancel" class="cancel">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
+                        </svg>
+                        Cancel
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="Penjualan.js"></script>
+</body>
+</html>
